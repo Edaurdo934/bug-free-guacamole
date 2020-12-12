@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/tablet1.png"
+  bg_image_webp : "images/backgrounds/tablet1.png"
+  title : "Consultanos o capacítate con nosotros"
+  content : "Nos especializamos en sistemas de información geográfica y ciencia de datos aplicado a ciencias de la tierra y ciencias ambientales. "
+  button:
+    enable : true
+    label : "Empieza un proyecto con nosotros"
+    link : "#contact"

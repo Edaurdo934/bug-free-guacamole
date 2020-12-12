@@ -1,0 +1,73 @@
+##################################### pricing ##############################
+pricing:
+  enable : true
+  title : Nuestros cursos
+  pricing_table :
+    # pricing table loop
+    - name : Qgis
+      price : $350.00
+      unit : 8 clases
+      services:
+        - Introducción a los SIG´s
+        - Herramientas básicas
+        - Análisis espacial
+        - Geoprocesos
+        - Creación de mapas
+      button:
+        label : "Inscríbete"
+        link : "#"
+      
+    # pricing table loop
+    - name : Arcgis
+      price : $350.00
+      unit : 8 clases
+      services:
+        - Introducción a los SIG´s
+        - Herramientas básicas
+        - Análisis espacial
+        - Geoprocesos
+        - Creación de mapas
+      button:
+        label : "Temario"
+        link : "#"
+        
+    # pricing table loop
+    - name : Programación R
+      price : $300
+      unit : 8 clases
+      services:
+        - Introducción a R
+        - Vectores, matrices, factores
+        - Data frames, listas
+        - Análisis de datos
+        - Gráficos 
+      button:
+        label : "Temario"
+        link : "#"
+        
+        # pricing table loop
+    - name : SIG con R
+      price : $350
+      unit : 8 clases
+      services:
+        - Datos geográficos en R
+        - Sistema de referencia de coordendas
+        - Reproyecciones
+        - Operaciones espaciales, geométricas
+        - Mapas (mapas interactivos, mapas web)
+      button:
+        label : "Temario"
+        link : "#"
+        
+    # pricing table loop
+    - name : Cartografía geológica
+      price : $200
+      unit : month
+      services:
+        - Qgis básico
+        - Aplicación a la geología
+        - Geoprocesos
+        - Análisis espacial
+      button:
+        label : "Temario"
+        link : "#"

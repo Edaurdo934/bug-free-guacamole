@@ -1,0 +1,76 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : Nuestros trabajos
+  portfolio_item :
+    # portfolio item loop
+    - name : Mapa de sismos
+      image : images/portfolio/1.png
+      image_webp : images/portfolio/1.png
+      categories : ["Mapas", "Geología"]
+      content : Mapa de sismos - Volcanes Nevado de Toluca
+      link : ""
+      
+    # portfolio item loop
+    - name : Mapa de peligros
+      image : images/portfolio/12.jpg
+      image_webp : images/portfolio/12.jpg
+      categories : ["Mapas", "Geología"]
+      content : Mapa de peligros por lahares - Volcán la Malinche
+      link : ""
+      
+    # portfolio item loop
+    - name : Mapa de vulnerabilidad
+      image : images/portfolio/14.png
+      image_webp : images/portfolio/14.png
+      categories : ["Mapas", "Geología"]
+      content : Mapa de sismos - Volcanes Nevado de Toluca.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Mapa tridimensional
+      image : images/portfolio/ff.jpg
+      image_webp : images/portfolio/ff.jpg
+      categories : ["Mapas", "Geología", "3D"]
+      content : Mapa geológico tridimensional - Ixcaquixtla - petlalcingo
+      link : "#"
+      
+    # portfolio item loop
+    - name : Aplicación - Monitores de calidad del agua
+      image : images/portfolio/featured.jpg
+      image_webp : images/portfolio/featured.jpg
+      categories : ["shiny App", "Data science", "Rstudio", "Spatial data science"]
+      content : Aplicación de monitoreo de calida del agua
+      link : "#"
+      
+    # portfolio item loop
+    - name : Aplicación - Consulta
+      image : images/portfolio/sd.jpg
+      image_webp : images/portfolio/sd.jpg
+      categories : ["shiny App", "Data science", "Rstudio"]
+      content : Aplicación de consulta de base de datos de parámetros hidrogeológicos.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Mapa tridimensional
+      image : https://www.rayshader.com/reference/figures/smallfeature.png
+      image_webp : https://www.rayshader.com/reference/figures/smallfeature.png
+      categories : ["Geología", "3D"]
+      content : Mapas tridimensionales
+      link : "#"
+      
+    # portfolio item loop
+    - name : Mapa de Edades
+      image : images/portfolio/16.png
+      image_webp : images/portfolio/16.png
+      categories : ["Mapas", "Geología"]
+      content : Mapa de edades - Volcanes Nevado de Toluca.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Base de datos
+      image : images/portfolio/table.png
+      image_webp : images/portfolio/table.png
+      categories : ["shiny App", "Data science", "Rstudio"]
+      content : Base de datos de información geoespacial de datos de calidad del agua
+      link : "#"

@@ -1,0 +1,16 @@
+############################# About ###################################
+about:
+  enable : true
+  title : Sobre nosotros
+  about_item :
+  - icon : ti-target # themify icon pack : https://themify.me/themify-icons
+    title :   Enfoque al cliente
+    content : Nuestro objetivo es ofrecer el mejor servicio, motivados por resolver las necesidades y preocupaciones del cliente.
+
+  - icon : ti-briefcase # themify icon pack : https://themify.me/themify-icons
+    title : Somos Profesionales
+    content : Nuestros trabajos y cursos están respaldados por los conocimientos y formación adquiridos en años de experiencia.
+
+  - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+    title : Innovación
+    content : Nuestra empresa está a la vanguardia de la nuevas tecnologías y técnicas.

@@ -1,0 +1,179 @@
+---
+author: GeoSpace Team
+date: "2020-12-11T12:52:36+06:00"
+description: Temario de curso Qgis básico
+image: images/blog/img1.png
+image_webp: images/blog/img1.png
+title: Temario - curso Qgis básico
+---
+
+__Curso 1 QGis Básico__
+
+10.12.2020
+
+GeoSpace Services S.A, Ciudad de México, México
+
+Inscripciones
+
+Registrate en el siguiente enlace: [Formulario](https://forms.gle/RFyMBhpDA6MSLFma9)
+
+__Descripción general__
+
+El curso online proporcionará al alumno las bases para iniciarse en el manejo de una aplicación SIG, realizar análisis, resolver problemas y publicar datos geoespaciales. Es un curso diseñado casi en su totalidad de forma práctica, sin la necesidad de tener conocimientos previos de Sistemas de Información Geográfica.
+
+
+__Público Objetivo__ 
+
+Destinado a toda aquella persona interesada en los Sistemas de Información Geográfica, sin conocimientos previos, independiente del grado de estudios, con el fin de aplicar los conocimientos adquiridos en su desarrollo educativa y/o profesional.
+
+
+__Metas__
+
+1.- Dominio del interfaz de QGIS.
+
+2.- Importancia de los Sistemas de Coordenadas. 
+
+3.- Manejo de Información vectorial y ráster. 
+
+4.- Creación y digitalización
+
+5.- Modificación de  propiedades de capa 
+
+6.- Geoprocesamiento vectorial y análisis espacial raster. 
+
+7.- Creación de mapas para impresión, 3D y publicación online. 
+
+
+__Servicios__ 
+
+- Software QGIS 3.10 (Versión Estable) (Asesoramiento en instalación, complementos.)
+
+- Material que se utilizará en el curso. 
+
+- Clases grabadas (Opcional para Clases Live)
+
+- Certificado de Participación. 
+
+
+__Temario__ 
+
+| 1. Introducción a los SIG’s 
+|  1.1. ¿Qué es un GIS? 
+|   1.1.1. Conceptos básicos
+|  1.2. Componentes de un GIS 
+|  1.3. Tipos de representación geográfica (raster vs vector) 
+|  1.4. Sistema de referencia de coordenadas 
+|  1.5. Fuentes y descarga de datos espaciales
+
+| 2. Introducción a Qgis 
+|  2.1. Instalación
+|  2.2. Interfaz gráfica, configuración básica
+|  2.3. Configuración del Sistema de Referencia de Coordenadas (SRC)
+|  2.4. Instalación de complementos 
+|  2.5. Georeferenciación (Gráficas, UTM, Satelital) 
+|  2.6. Reproyecciones
+
+| 3. Manejo de datos Espaciales
+|  3.1. Añadir  datos 
+|   3.1.2 Raster, vectoriales
+|   3.1.3. Mapas y cartografía base 
+|   3.1.4. Tabla excel y de texto  
+|   3.1.5. Formato KML y CAD
+|  3.2. Exploración y manejo de datos
+|  3.3. Tablas de atributos 
+|   3.3.1. Edición de datos
+|   3.3.2. Tipos de selección 
+|   3.3.3. Unión de tablas
+|   3.3.4. Calculadora de campos (áreas, perímetro)
+
+| 4. Procesos
+|  4.1. Herramientas de geometría 
+|   4.1.1 Creación de puntos, líneas, polígono.
+|   4.1.2. Herramientas de digitalización
+|   4.1.3. Edición de vértices.
+|  4.2. Herramientas de geoproceso 
+|   4.2.1. Área de influencia (Buffer)  
+|   4.2.2. Intersección de geometrías (Intersection)
+|   4.2.3. Recortes (Clip)  
+|   4.2.4. Fusión o combinación de capas (Merge)
+|   4.2.5. Disolver geometrías por atributo (Dissolve)  
+|   4.2.6. Dividir capa vectorial
+|   4.2.7. Conversión de vectorial a ráster (Rasterizar)
+|  4.3. Herramientas de análisis espacial  
+|   4.3.1. Modelos Digitales de Elevaciones (MDE)
+|   4.3.2. Mapas de sombras (Hillshade) y orientación (Aspect)  
+|   4.3.3. Mapas de pendientes (Slope)
+|   4.3.4. Generación de curvas de nivel (Contours)
+|   4.3.5. Reclasificación de datos ráster
+|   4.3.6. Visualización en 3D y online.
+|  4.4. Simbología y etiquetado
+|   4.4.1. Estilo categorizado de capas vectoriales
+|   4.4.2. Estilo graduado de capas vectoriales
+|   4.4.3. Opciones de etiquetado
+
+| 5. Mapas de salida
+|  5.1. Elementos de un mapa 
+|   5.1.1. Escala, Papel y marcadores
+|  5.2 Diseño de impresión de QGIS
+|   5.2.1. Simbología, grilla, leyenda, tabla de datos, escala 
+|   5.2.2. Configuración del mapa
+|   5.2.3. Mapa de ubicación 
+|  5.3. Impresión y exportación de mapas
+|  5.4. Exportar y guardar planilla
+|  5.5. Publicación online
+
+| 6. Proyecto (opcional)
+|  6.1. Como actividad final se propone realizar un mapa aplicando los conocimientos adquiridos durante las 4 clases.
+|  6.2. Conclusiones y recomendaciones
+
+
+
+__Formato de clases__ 
+
+__I. Clases Live__
+
+4 clases online por medio de la plataforma meet, con una duración de 2 horas, espacio para dudas y preguntas. Los materiales y el link de entrada serán proporcionados vía correo electrónico. Se recomienda unirse participar desde una computadora de escritorio y/o laptop,  para realizar los ejercicios prácticos, a la par del instructor en tiempo real y evitar retrasos. Los horarios estarán sujetos a disponibilidad.
+
+
+__Clases videos pre-grabados__
+
+Clases vía classroom, donde se proporcionarán videos cortos, materiales de trabajo y pequeños quizzes, además de contar con foros de preguntas y respuestas. El material será desbloqueado conforme al avance de los alumnos. Tiempo de 2 meses para completar el curso.
+
+__Costo__
+
+El costo del curso es de $350 MXN, el pago se realizará por vía bancaria y/o Paypal, los datos se proporcionarán después del registro al curso. 
+
+
+## Aparta tu lugar ahora
+
+<body>
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=AcQdtyiVn1BB_IUava5Pkopojt7-BjEuq5LpCgQAbtuD_oj4jEUvrcVZx6y6qAM5IswfAKvosDeQifzp"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+  </script>
+
+  <div id="paypal-button-container"></div>
+
+  <script>
+    paypal.Buttons({
+    createOrder: function(data, actions) {
+      // This function 
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            currency_code: 'USD',
+            value: '15.00'
+          }
+        }]
+      });
+    },
+    onApprove: function(data, actions) {
+      // This function captures the funds from the transaction.
+      return actions.order.capture().then(function(details) {
+        // This function shows a transaction success message to your buyer.
+        alert('Transaction completed by ' + details.payer.name.given_name);
+      });
+    }
+  }).render('#paypal-button-container');
+    
+  </script>
+</body>

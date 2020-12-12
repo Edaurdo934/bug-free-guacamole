@@ -1,0 +1,26 @@
+################################# Skill ##################################
+skill:
+  enable : true
+  title : Nuestras habilidades
+  subtitle : Amamos lo que hacemos
+  content : Nuestro productos ofrecen la mejor experiencia y la solución a tus problemas
+  image : images/about/company-growth.webp
+  skill_item :
+    # skill item loop
+    - name :  Enfoque al cliente
+      percent : 90%
+      
+    # skill item loop
+    - name :  Análisis
+      percent : 95%
+      
+    # skill item loop
+    - name :  Programación
+      percent : 80%
+      
+    - name :  Sistemas de información geográfica
+      percent : 95%
+      
+    # skill item loop
+    - name :  Ciencia de datos
+      percent : 85%

@@ -1,0 +1,38 @@
+############################### team ############################
+team:
+  enable : true
+  title : Nuestro equipo
+  team_member :
+    # team member loop
+    - name : Ing. Héctor Eduardo Báez Reyes
+      image_webp : images/team/hector.jpg
+      image : images/team/hector.jpg
+      designation : CEO/Founder
+      content : Ingeniero geólogo por la Universidad Nacional Autónoma de México. Con estudios en sistemas de información geográfica y programación en R.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.facebook.com/hector.baezreyes/"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - name : Ing. Daniel Perez Bravo
+      image_webp : images/team/dany.png
+      image : images/team/dany.png
+      designation :  CEO/Founder
+      content : Ingeniero geólogo por la Universidad Nacional Autónoma de México. Con estudios en Sistemas de información geográfica y geología petrolera.
+      social :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.facebook.com/dante.bravo.71/"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    

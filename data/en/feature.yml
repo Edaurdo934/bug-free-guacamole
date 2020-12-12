@@ -1,0 +1,27 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/equipo.png
+  image_webp : images/about/equipo.png
+  title : Consultoría.
+  content : "Resolvemos todos tus problemas relacionados con: sistemas de información geográfica, análisis de información espacial y geología"
+  feature_item : 
+      # feature item loop
+    - title : Consultoría - GIS
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Nuestro equipo está a la vanguardia de las nuevas técnicas y tecnologías para resolver tus problemas.
+      
+      # feature item loop
+    - title : Capacitaciones y cursos
+      icon : ti-map # themify icon pack : https://themify.me/themify-icons
+      content : Los cursos y capacitaciones que ofrecemos te ofrecen la seguridad de que mejorarás tus habilidades y conocimientos.
+
+      # feature item loop
+    - title : Consultoría en geología
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Nuestro equipo de expertos en ciencias de la tierra están capacitados para realizar estudios de cartografía geológica, geología estructural, hidrogeología y geoestadística.
+      
+      # feature item loop
+    - title : Cartografía
+      icon : ti-map-alt # themify icon pack : https://themify.me/themify-icons
+      content : Somos profesionales en la realización de cartografía temática y mapas de riesgo.

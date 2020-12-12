@@ -1,0 +1,28 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contáctanos
+  subtitle : Detalles de contacto
+  content : Envíanos tus preguntas y consulta nuestro servicios. Tenemos un equipo especializado en brindarte la mejor experiencia.
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Coyoacán, Ciudad de México, México"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: 55-32-20-44-85"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: hector.br934@gmail.com"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Nombre"
+    email : "Correo"
+    subject : "Asunto"
+    message : "Mensaje"
+    submit : "Enviar"

@@ -1,0 +1,26 @@
+################################# Testimonial #########################
+testimonial:
+  enable : true
+  bg_image : images/backgrounds/testimonios.jpg
+  bg_image_webp : images/backgrounds/testimonios.jpg
+  testimonial_item :
+    # testimonial item loop
+    - name : Ricardo BS
+      image : images/client/client-1.jpg
+      image_webp : images/client/client-1.webp
+      date : Dec 26, 2018
+      content :  Muy buenos cursos los recomiendo.
+      
+    # testimonial item loop
+    - name : Eduardo Santillán
+      image : images/client/client-2.jpg
+      image_webp : images/client/client-2.webp
+      date : Dec 26, 2018
+      content : Un equipo muy activo que todo el tiempo está al pendiente de las necesidades, fue un placer trbaajr con ustedes.
+      
+    # testimonial item loop
+    - name : Edgar Santos
+      image : images/client/client-1.jpg
+      image_webp : images/client/client-1.webp
+      date : Dec 26, 2018
+      content : Me gustaron los cursos pero hubo algunas fallas en las transmisiones.

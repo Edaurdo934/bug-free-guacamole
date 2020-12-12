@@ -1,0 +1,63 @@
+---
+author: Héctor Báez Reyes
+date: "2020-09-12T12:52:36+06:00"
+description: Análisis estadístico de parámetros hidrogeológicos con R
+image: images/blog/sd.jpg
+image_webp: images/blog/sd.jpg
+title: Análisis estadístico de parámetros hidrogeológicos
+---
+
+## Introducción
+
+En esta página se muestran los ejemplos de las ventajas de la programación dentro de las ciencias de las tierra, específicamente en la hidrogeología
+
+La hidrogeología se define como la ocurrencia, distribución, movimiento e interacción del agua en la corteza terrestre. Puede tratarse como un tema interdisciplinario ya que el agua como una unidad  forma un ciclo continuo entre: la precipitación, el agua  superficial, el hielo y el agua subterránea (Hiscock y  Bense, 2006).
+
+La hidrogeología es considerada tanto, una ciencia descriptiva como una ciencia analítica, en donde el desarrollo  y manejo de aguas subterráneas son partes importantes de esta (Fetter, 1988).  No puede separarse de la hidrología superficial, climatología, geología y geografía.  Además de que como todas las ciencias modernas cae en los dominios de la física, química, biología (Gilli et al. 2012).
+
+La infiltración de la lluvia en la capa freática y el flujo de agua subterránea en un acuífero hacia un área de descarga se rigen por leyes físicas, que describen los cambios en la energía y el movimiento del agua subterránea (Hiscock y  Bense, 2006). Es así como las propiedades Hidráulicas de las formaciones geológicas gobiernan sus características de almacenamiento y transmisión de agua en el subsuelo (Singhal y Gupta, 2010).
+
+Los siguientes son los resultados de un análisis de parámetros hidrogeológicos recolectados de diferentes fuentes. El procesado de datos se realizó con lenguaje de programación estadística R, haciendo uso de paqueterías como "ggplot2" y "plotly".
+
+```{r cars,echo=TRUE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(plotly)
+database<-read.csv("C:/Rproj/DatosR/Shiny/appb/hydraulic_parameters.csv",header=TRUE,sep=",") ##Actualizar la base de datos
+
+plot1<-ggplot(database,aes(x=K,fill=Type))+theme_bw()+
+  geom_histogram(bins=20,na.rm=TRUE)+scale_fill_brewer(palette="Dark2")+
+  facet_wrap(~Type, ncol =2)+scale_x_log10()
+
+ggplotly(plot1,tooltip=c("y","Type"),color=~type)%>%layout(showlegend = FALSE)%>% config(displayModeBar = F)
+
+     
+```
+
+## Ejemplo
+
+Los histogramas son una representacion de la conductividad hidráulica en los diferentes tipos de litologías.
+
+Con el fin de observar mejor el comportamiento de los datos se diseñaron diagramas de caja, cuyos resultados se muestran a continuación:
+
+```{r pressure, echo=TRUE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(plotly)
+database<-read.csv("C:/Rproj/DatosR/Shiny/appb/hydraulic_parameters.csv",header=TRUE,sep=",") ##Actualizar la base de datos
+
+
+plot_ly(database, y = ~K, x=~Type, type = "box",color=~Type,boxpoints = "all")%>%
+  layout(yaxis=list(type="log"))%>%
+  add_boxplot(database, y = ~K, x=~Type, type = "box",color=~Type,
+              boxpoints = "outliers",showlegend=FALSE)%>%
+  layout(yaxis = list(title="K",tickvals = c("1e-10","1e-8","1e-6","1e-4","1e-2","1e+0","1e+2","1e+4"),
+                      ticktext=c("1e-10","1e-08","1e-06","1e-04","1e-02","1e+00","1e+02","1e+4"),
+                      type = "log",
+                      showline = TRUE),
+         xaxis= list(showline=TRUE))%>%
+  config(displayModeBar = F)
+```
+
+Con esto se puede concluir, lo poderosas que resultan herramientas de programación para el análisis de datos, dentro de los estudios en las diferentes ramas de las ciecias de la tierra.
+

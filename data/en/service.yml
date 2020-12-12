@@ -1,0 +1,39 @@
+################################# Service #################################
+service:
+  enable : true
+  title : Nuestros servicios
+  service_item :
+    # service item loop
+    - name : Diseño de cartografía temática
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Diseñamos mapas temáticos y mapas interactivos
+      
+    # service item loop
+    - name : Cursos y capacitaciones
+      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      content : Capacítate en qgis, arcgis, rstudio, phyton, ciencia de datos, geoestadística
+      
+    # service item loop
+    - name : Spatial data science
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : Trabajos de ciencia de datos aplicados a información espacial
+      
+      # service item loop
+    - name : Geomarketing
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      content : Aplicación de "spatial data sceince" y sistemas de información geográfica para mejorar tus ventas
+      
+    # service item loop
+    - name : Mapas de riesgo
+      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      content : Mapas listos para publicaciones
+      
+    # service item loop
+    - name : Shiny Apps
+      icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      content : Desarrollo de aplicaciones shiny de Rstudio
+      
+    # service item loop
+    - name : Cartografía geológica
+      icon : ti-gallery # themify icon pack : https://themify.me/themify-icons
+      content : Mapas geológicos estructurales y mapas geológico-mineros .

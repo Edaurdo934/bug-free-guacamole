@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.jpg"
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Solución a tus problemas "
+  content : "Nuestra empresa de consultoría te ofrece las soluciones a tus problemas GIS, así como cursos y capacitaciones para que continues con tu formación. "
+  button:
+    enable : true
+    label : "Conócenos"
+    link : "#services"
